@@ -1,0 +1,29 @@
+.admin-page {
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #f0f2f5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-product-button {
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-table {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .product-table {
+        padding: 10px;
+    }
+}

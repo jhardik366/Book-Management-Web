@@ -1,0 +1,34 @@
+.site-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.flex-card {
+  flex: 1 1 300px; /* Flexbox properties for each card */
+  max-width: 300px; /* Maximum width of each card */
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.grid-card {
+  flex: 1 1 300px; /* Flexbox properties for each card */
+  max-width: 300px; /* Maximum width of each card */
+  padding: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card-image {
+  max-width: 100%; /* Ensure the image fits within its container */
+  width: 100%; /* Ensure the image fills the cover area */
+  border-radius: 50%; /* Make the image circular */
+  padding: 10%;
+}

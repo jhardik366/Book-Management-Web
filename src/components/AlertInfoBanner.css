@@ -1,0 +1,11 @@
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 1000; /* Ensure it's above other content */
+  text-align: center;
+  background-color: pink;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.cart-popover {
+    width: 300px;
+}
+
+.cart-popover .ant-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-popover .ant-btn-link {
+    padding: 0;
+}
+
+.cart-popover .ant-input-number {
+    width: 50px !important;
+}
+
+.delete-icon {
+    color: #1890ff;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.delete-icon:hover {
+    transform: scale(1.5);
+}
